@@ -49,6 +49,6 @@ public class TrackingService extends Service {
 
         Toast.makeText(this, latitud + "\n" + longitud + "\n" + fecha, Toast.LENGTH_SHORT).show();
 
-        return START_STICKY;
+        return START_NOT_STICKY;
     }
 }
